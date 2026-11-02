@@ -1,0 +1,95 @@
+<!-- Salma Sherif - 225100171 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salma Sherif | Portfolio</title>
+    <!-- ربط ملف الـ CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- الناف بار داخل header -->
+<header class="top-nav">
+    <div class="logo">Salma Sherif</div>
+    <nav class="nav-links">
+        <a href="#bio">Profile</a>
+        <a href="#expertise">Skills</a>
+        <a href="#reach">Contact</a>
+    </nav>
+</header>
+
+<!-- المحتوى الرئيسي داخل main -->
+<main class="page-wrapper">
+
+    <!-- الجزء بتاع نبذة عني وصورتي -->
+    <section id="bio" class="hero-card">
+        <div class="avatar-box">
+            <img src="images/me.jpg" alt="Salma Sherif">
+        </div>
+        <div class="bio-info">
+            <h1>Salma Sherif</h1>
+            <span class="badge">Computer Science Student</span>
+            <p>Passionate about coding, building creative software solutions, and exploring new technologies every single day.</p>
+        </div>
+    </section>
+
+    <!-- كروت المهارات -->
+    <section id="expertise" class="skills-container">
+        <h2>Core Competencies</h2>
+        <div class="skills-grid-box">
+            <div class="skill-item">
+                <h3>Programming</h3>
+                <p>C#, Data Structures, Algorithms</p>
+            </div>
+            <div class="skill-item">
+                <h3>Web Development</h3>
+                <p>HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="skill-item">
+                <h3>Interests</h3>
+                <p>Problem Solving, Plants, Reading</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- حتة التواصل والإيميل -->
+    <section id="reach" class="contact-box-modern">
+        <h2>Get in Touch</h2>
+        <p class="contact-info-text">Feel free to reach out via university email or send a message directly:</p>
+        <p class="email-display"><strong>Email:</strong> Salma225100171@nmu.edu.eg</p>
+        
+        <form style="margin-top: 20px;">
+            <div class="input-line" style="margin-bottom: 15px;">
+                <label for="visitor-name" style="display: block; margin-bottom: 5px; font-size: 14px; color: var(--text-muted);">Name:</label>
+                <input type="text" id="visitor-name" placeholder="Your Name">
+            </div>
+            <div class="input-line" style="margin-bottom: 15px;">
+                <label for="visitor-email" style="display: block; margin-bottom: 5px; font-size: 14px; color: var(--text-muted);">Email:</label>
+                <input type="email" id="visitor-email" placeholder="Your Email">
+            </div>
+            <div class="input-line" style="margin-bottom: 15px;">
+                <label for="visitor-message" style="display: block; margin-bottom: 5px; font-size: 14px; color: var(--text-muted);">Message:</label>
+                <textarea id="visitor-message" placeholder="Your Message" style="width: 100%; padding: 12px; background: var(--bg-main); border: 1px solid var(--border-clr); border-radius: 8px; color: var(--text-main); box-sizing: border-box; resize: vertical; min-height: 90px; font-family: inherit;"></textarea>
+            </div>
+            <button type="submit" style="width: 100%; background: var(--accent); color: #0f172a; border: none; padding: 12px 30px; font-weight: bold; font-size: 15px; border-radius: 8px; cursor: pointer;">Send Message</button>
+        </form>
+    </section>
+
+    <!-- زرار الدارك مود -->
+    <div class="action-bar">
+        <button id="theme-toggle">Toggle Dark/Light Mode</button>
+    </div>
+
+</main>
+
+<!-- الفوتر -->
+<footer class="site-footer">
+    <p>&copy; 2026 Salma Sherif. ID: 225100171. All rights reserved.</p>
+</footer>
+
+<!-- سكربت الجافا سكربت -->
+<script src="js/script.js"></script>
+</body>
+</html>
